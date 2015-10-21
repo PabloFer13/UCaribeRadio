@@ -10,12 +10,12 @@ DESCRIPTION: A premium business and portfolio theme.
 /* Global Styles */
 
 body{
-    background:url(../fotos/fondo.jpg) no-repeat;
+    background:url(./fondo2.jpg) no-repeat;
     width: 100%;
     font-size:12px;
     font-family:'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Arial, san-serif;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size:cover;
+    background-attachment:fixed;
 }
 a:focus								{outline:1px dotted;}
 a									{color:#717171; text-decoration:none;}
@@ -163,9 +163,41 @@ ul#navigation li a.current			{background:url(../images/triangle.gif) no-repeat c
 .footer a							{color:#494949;}
 .footer a:hover						{color:#9d9d9d;}
 
+/* Footer_Menu*/
+
+div.footer_menu                     {float: right; position: relative; width: 100%; height: 5em; margin-bottom: 10%; background-color: transparent;}
+
+ul#footer_menu						{
+    text-transform:uppercase;
+    width: 80%;
+    margin-left: 20px;
+    margin-right: 20px;
+    position:relative;
+    float:right;
+    display: inline;
+}
+ul#footer_menu li 					{
+    float:right;
+    display:inline;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+ul#footer_menu li a{
+    font-family:arial, sans-serif !important;
+    display:block; padding:10px 5px 0 5px;
+    text-decoration:none;
+    color:#FFFFFF;
+    font-size:14px;
+    font-weight:bold;
+}
+ul#footer_menu li a:hover,
+ul#footer_menu li a.current			{background:url(../images/triangle.gif) no-repeat center top;}
+
 /* Sub Navigation */
 
-ul.sidebar							{list-style:none; margin:0 0 30px 0; padding:0;}
+ul.sidebar							{list-style:none; margin: 0 0 30px 0; padding:0;}
 ul.sidebar li						{margin:0 0 0 0; padding:0;}
 ul.sidebar a						{width:295px;display:inline-block; padding:10px 0 10px 5px; border-bottom:1px solid #e4e4e4; text-decoration:none; color:#393939; }
 ul.sidebar li:last-child a			{-moz-border-radius-bottomleft:5px; -moz-border-radius-bottomright:5px;  -webkit-border-bottom-left-radius:5px;  -webkit-border-bottom-right-radius:5px;}
